@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Registration Page</title>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+          <link rel="stylesheet" href="./style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+          <div class="container-sm" id="container">
+                    <div class="header" id="header">
+                              <h4 class="display-6 text-primary">
+                                        Registration Page
+                              </h4>
+                    </div>
+                    <form>
+                              <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="firstName">
+                              </div>
+                              <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lastName">
+                               </div>
+                                        
+                              <div class="mb-3">
+                                        <input type="email" class="form-control" aria-describedby="emailHelp"  placeholder="Email" aria-label="Email" id="email">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                        <div class="row g-3" style="display: inline-flex; justify-content: center; align-items: center;">
+                                                  <div class="col-11">
+                                                            <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpBlock"  placeholder="Password" aria-label="Password">
+                                                  </div>
+                                                 <div class="col-1">
+                                                            <i class="fa fa-eye  rounded px-2 " data-toggle="tooltip" data-placement="bottom" title="show password" id="showPassword1"></i>
+                                                 </div>
+                                        </div>
+                                    
+                               <div id="passwordHelpBlock" class="form-text mb-3">
+                                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                              </div>
+                              <div class="mb-3">
+                                        <div class="row g-3" style="display: inline-flex; justify-content: center; align-items: center;">
+                                                  <div class="col-11">
+                                                            <input type="password" id="confirmPassword" class="form-control" aria-describedby="passwordHelpBlock"  placeholder="Confirm Password" aria-label="confirm password">
+                                                  </div>
+                                                 <div class="col-1">
+                                                  <i class="fa fa-eye  rounded px-2 " data-toggle="tooltip" data-placement="bottom" title="show password" id="showPassword2"></i>
+                                                 </div>
+                                        </div>
+                              </div>
+                              <button type="submit" class="btn btn-primary mb-3" id="submit">Submit</button>
+                              <div>
+                                        <span>Already registered? </span><a href="#" id="login">Login</a>
+                              </div>
+                    </form>
+          </div>
+          <script src="./script.js"></script>
+</body>
+</html>

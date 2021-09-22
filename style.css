@@ -1,0 +1,26 @@
+
+body{
+          padding-top: 50px;
+          padding-bottom: 50px;
+          background-image: url("./images/joanna-kosinska-9gfGDbxuqrU-unsplash.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-color: cornflowerblue;
+}
+
+.container-sm{
+          max-width: 600px;
+          padding: 50px;
+          background-color: #E0E0DC;
+}
+
+.display-6{
+          text-align: center;
+          padding-bottom: 30px;
+}
+
+.alert-success, .alert-danger{
+          position: absolute;
+          top: 40px;
+          left: 100px;
+}
